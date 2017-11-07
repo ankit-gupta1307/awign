@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link} from 'react-router-dom';
 import { Switch, Route } from 'react-router-dom';
-import DashboardHome from 'components/dashboard/dashboardHome';
 import ProjectList from 'components/project/projectList';
 import TaskList from 'components/tasks/taskList';
 import CreateProject from 'components/project/createProject';
