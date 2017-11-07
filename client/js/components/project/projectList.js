@@ -62,7 +62,7 @@ export default class ProjectList extends Component {
               </Col>
               <Col lg={9} md={9} sm={12} xs={12} className={commonCss.RightPanelHead}>
                 <Col lg={12} md={12} sm={12} xs={12} className={dashboardHeaderCss.dashboardHeader}>
-                  <Row>
+                  <Row className={CircleManagementCSS.commonTable}>
                     <Col lg={12} md={12} sm={12} xs={12} className={dashboardHeaderCss.headerList} style={{"color": "#fff", "fontSize": "16px"}}>
                       PROJECTS LIST
                     </Col>

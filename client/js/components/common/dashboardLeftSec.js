@@ -8,51 +8,50 @@ import { Grid, Row, Col, FormGroup, Button, FormControl } from 'react-bootstrap'
 import dashboardLeftCSS from 'css/dashboardLeftSec.scss';
 import { history } from 'store';
  
-@connect((store) => {
-  return {
-    
-  }
-})
-
 export default class DashboardLeftSec extends Component {
   constructor(props) {
     super(props);
-    console.log(props);
   }
 
   render() {
     return (
         <div>
-          <ul className={dashboardLeftCSS.dashboardLeftSec}>
+          <ul className={dashboardLeftCSS.dashboardLeftSec} >
             <li>
-              <Link to="/dashboard" className={dashboardLeftCSS.panelActive}>
-                  <img src="/img/dashboardIcon1.png"/>
-                  <span>Home</span>
-              </Link>
-            </li>
-            <li>
-              <Link to="/createProject">
+              {this.props.location.indexOf("/createProject") > -1 ? <Link to="/createProject" className={dashboardLeftCSS.panelActive}>
                 <img src="/img/dashboardIcon2.png"/>
                 <span>Create Project</span>
-              </Link>
+              </Link>: <Link to="/createProject">
+                <img src="/img/dashboardIcon2.png"/>
+                <span>Create Project</span>
+              </Link>}
             </li>
             <li>
-              <Link to="/createIntern">
+              {this.props.location.indexOf("/createIntern") > -1 ? <Link to="/createIntern" className={dashboardLeftCSS.panelActive}>
                 <img src="/img/dashboardIcon3.png"/>
                 <span>Create Intern</span>
-              </Link>
+              </Link>: <Link to="/createIntern">
+                <img src="/img/dashboardIcon3.png"/>
+                <span>Create Intern</span>
+              </Link>}
             </li>
             <li>
-              <Link to="/projectList">
+              {this.props.location.indexOf("/projectList") > -1 ?<Link to="/projectList" className={dashboardLeftCSS.panelActive}>
                   <img src="/img/dashboardIcon4.png"/>
                   <span>List of Projects</span>
-              </Link>
+              </Link>: <Link to="/projectList">
+                  <img src="/img/dashboardIcon4.png"/>
+                  <span>List of Projects</span>
+              </Link>}
             </li>
             <li>
-              <Link to="/internList">
+              {this.props.location.indexOf("/internList") > -1 ?<Link to="/internList" className={dashboardLeftCSS.panelActive}>
                   <img src="/img/dashboardIcon5.png"/>
                   <span>List of Interns</span>
-              </Link>
+              </Link>: <Link to="/internList">
+                  <img src="/img/dashboardIcon5.png"/>
+                  <span>List of Interns</span>
+              </Link>}
             </li>
           </ul>
         </div>

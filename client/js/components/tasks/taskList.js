@@ -73,7 +73,7 @@ export default class TaskList extends Component {
             <div className={commonCss.panelMain}>
               <Col lg={3} md={3} sm={12} xs={12} className={commonCss.leftPanelHead}>
                 <Row>
-                  <DashboardLeftSec/>
+                  <DashboardLeftSec location={this.props.location.pathname}/>
                 </Row>
               </Col>
               <Col lg={9} md={9} sm={12} xs={12} className={commonCss.RightPanelHead}>

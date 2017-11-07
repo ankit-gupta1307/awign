@@ -133,41 +133,41 @@ export default class AssignTaskModal extends Component {
                <Col lg={12} md={12} sm={12} xs={12}>
                   <Row>
                     <Form>
-                     <Col lg={6} md={6} sm={12} xs={12}>
-                      <FormGroup className={commonCss.commonForm}>
-                        <label>Task Name<span>*</span></label>
-                        <input type="text" class="form-control" value={this.state.taskName} placeholder="Enter Task Name" onChange={(event) => this.handleTaskName(event)}/>
-                        {!this.state.taskName ? <HelpBlock className="nameVal" style={{'color':'red','fontSize':'10px'}}>*Enter Task Name</HelpBlock>: false}
-                      </FormGroup>
-                    </Col>
-                    <Col lg={6} md={6} sm={12} xs={12}>
-                      <FormGroup className={commonCss.commonForm} >
-                        <label>Select Department<span>*</span></label>
-                        <Select name="form-field-name" options={departmentsList} value={this.state.department} onChange={(event) => this.handleDepartment(event)} />
-                        {!this.state.department ? <HelpBlock className="mobileNumberVal" style={{'color':'red','fontSize':'10px'}}>*Please Select Department</HelpBlock>: false}
-                      </FormGroup>
-                    </Col>
-                    <Col lg={6} md={6} sm={12} xs={12}>
-                      <FormGroup className={commonCss.commonForm} >
-                        <label>Select Interns<span>*</span></label>
-                        <Select name="form-field-name" options={internList} value={this.state.internID} onChange={(event) => this.handleIntern(event)} />
-                        {!this.state.internID ? <HelpBlock className="mobileNumberVal" style={{'color':'red','fontSize':'10px'}}>*Please Select Department</HelpBlock>: false}
-                      </FormGroup>
-                    </Col>
-                    <Col lg={6} md={6} sm={12} xs={12}>
-                      <FormGroup className={commonCss.commonForm}>
-                        <label>Delivery Date<span>*</span></label>
-                        <input type="date" class="form-control" value={this.state.deliveryDate} placeholder="Select Delivery Date" onChange={(event) => this.handleDeliveryDate(event)}/>
-                        {!this.state.deliveryDate ?<HelpBlock className="nameVal" style={{'color':'red','fontSize':'10px'}}>*Select Delivery Date</HelpBlock>: false}
-                      </FormGroup>
-                    </Col>
-                    <Col lg={6} md={6} sm={12} xs={12}>
-                      <FormGroup className={commonCss.commonForm}>
-                        <label>Tentative completion Date<span>*</span></label>
-                        <input type="date" class="form-control" value={this.state.tentativeCompletionDate} placeholder="Select Delivery Date" onChange={(event) => this.handleTentativeCompletionDate(event)}/>
-                        {!this.state.tentativeCompletionDate ? <HelpBlock className="nameVal" style={{'color':'red','fontSize':'10px'}}>*Select Tentative completion Date</HelpBlock>: false}
-                      </FormGroup>
-                    </Col>
+                      <Col lg={6} md={6} sm={12} xs={12}>
+                        <FormGroup className={commonCss.commonForm}>
+                          <label>Task Name<span>*</span></label>
+                          <input type="text" class="form-control" value={this.state.taskName} placeholder="Enter Task Name" onChange={(event) => this.handleTaskName(event)}/>
+                          {!this.state.taskName ? <HelpBlock className="nameVal" style={{'color':'red','fontSize':'10px'}}>*Enter Task Name</HelpBlock>: false}
+                        </FormGroup>
+                      </Col>
+                      <Col lg={6} md={6} sm={12} xs={12}>
+                        <FormGroup className={commonCss.commonForm} >
+                          <label>Select Department<span>*</span></label>
+                          <Select name="form-field-name" options={departmentsList} value={this.state.department} onChange={(event) => this.handleDepartment(event)} />
+                          {!this.state.department ? <HelpBlock className="mobileNumberVal" style={{'color':'red','fontSize':'10px'}}>*Please Select Department</HelpBlock>: false}
+                        </FormGroup>
+                      </Col>
+                      <Col lg={6} md={6} sm={12} xs={12}>
+                        <FormGroup className={commonCss.commonForm} >
+                          <label>Select Interns<span>*</span></label>
+                          <Select name="form-field-name" options={internList} value={this.state.internID} onChange={(event) => this.handleIntern(event)} />
+                          {!this.state.internID ? <HelpBlock className="mobileNumberVal" style={{'color':'red','fontSize':'10px'}}>*Please Select Department</HelpBlock>: false}
+                        </FormGroup>
+                      </Col>
+                      <Col lg={6} md={6} sm={12} xs={12}>
+                        <FormGroup className={commonCss.commonForm}>
+                          <label>Delivery Date<span>*</span></label>
+                          <input type="date" class="form-control" value={this.state.deliveryDate} placeholder="Select Delivery Date" onChange={(event) => this.handleDeliveryDate(event)}/>
+                          {!this.state.deliveryDate ?<HelpBlock className="nameVal" style={{'color':'red','fontSize':'10px'}}>*Select Delivery Date</HelpBlock>: false}
+                        </FormGroup>
+                      </Col>
+                      <Col lg={6} md={6} sm={12} xs={12}>
+                        <FormGroup className={commonCss.commonForm}>
+                          <label>Tentative completion Date<span>*</span></label>
+                          <input type="date" class="form-control" value={this.state.tentativeCompletionDate} placeholder="Select Delivery Date" onChange={(event) => this.handleTentativeCompletionDate(event)}/>
+                          {!this.state.tentativeCompletionDate ? <HelpBlock className="nameVal" style={{'color':'red','fontSize':'10px'}}>*Select Tentative completion Date</HelpBlock>: false}
+                        </FormGroup>
+                      </Col>
                     </Form>
                   </Row>
                 </Col>

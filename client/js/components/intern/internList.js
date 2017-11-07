@@ -46,7 +46,6 @@ export default class InternList extends Component {
                 <td>{tasksAssigned}</td>
                 <td>{intern.completed}</td>
                 <td>{intern.tasksAssigned.length}</td>
-                <td><button>Assign Task</button></td>
                </tr>
       })
     }
@@ -79,7 +78,6 @@ export default class InternList extends Component {
                         <th>Tasks Assigned</th>
                         <th>Tasks Completed</th>
                         <th>Total Tasks</th>
-                        <th>Assign Task</th>
                       </tr>
                     </thead>
                     <tbody>
