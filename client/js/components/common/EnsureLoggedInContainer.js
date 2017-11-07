@@ -7,6 +7,7 @@ import TaskList from 'components/tasks/taskList';
 import CreateProject from 'components/project/createProject';
 import InternList from 'components/intern/internList';
 import CreateIntern from 'components/intern/createIntern';
+import NotFound from 'components/common/notFound';
 @connect((store) => {
   return {
     isLoggedIn: store.loginReducer.isLoggedIn
@@ -32,6 +33,7 @@ export default  class EnsureLoggedInContainer extends React.Component {
         <Route exact path="/taskList/:id/:title" component={TaskList} />
         <Route exact path="/internList" component={InternList} />
         <Route exact path="/createIntern" component={CreateIntern} />
+        <Route path='*' component={NotFound} />
       </Switch>
     )
   }

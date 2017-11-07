@@ -94,7 +94,7 @@ export default class Landing extends Component {
           <Row>
              <Col lg={12} md={12} sm={12} xs={12} className={commonCss.RightPanelHead}>
               <h4>Login</h4>
-              <Col lg={12} md={12} sm={12} xs={12}>
+              <Col lg={6} md={6} sm={12} xs={12}>
                 <FormGroup className={commonCss.commonForm}>
                   <label>User ID<span>*</span></label>
                   <input type="text" class="form-control" value={this.state.userID} placeholder="Enter User ID" onChange={(event) => this.handleUserID(event)}/>
