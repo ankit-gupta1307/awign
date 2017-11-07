@@ -1,0 +1,27 @@
+.footerMain{
+	text-align: center;
+	margin: 11px 0px;
+}
+.footerMain ul{
+	border-top: solid 1px #bcbec0;
+	border-bottom: solid 1px #bcbec0;
+}
+.footerMain li{
+	padding: 15px 10px;
+	display: inline-block;
+}
+.footerMain li>a{
+	display: inline-block;
+	font-size: 12px;
+	color: #a7a9ac;
+	border-bottom: solid 1px #a7a9ac;
+}
+.footerMain li>a:hover{
+	text-decoration: none;
+	color: #514cc5;
+	transition: 0.3s all ease;
+}
+.footerMain p{
+    font-size: 12px;
+    color: #a7a9ac;
+}

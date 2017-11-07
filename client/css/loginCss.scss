@@ -1,0 +1,148 @@
+
+.loginMain{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.loginHead{
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(82, 74, 74, 0.25);
+    padding: 20px;
+    margin-top: 14px;
+    margin-bottom: 24px;
+}
+.loginHead .loginBlocksBorder:before{
+	content:"";
+	background: rgba(151, 151, 151, 0.23);
+	width: 2px;
+  	height: 200px;
+  	position: absolute;
+    right: 0px;
+    top: 25%;
+}
+.loginHead .loginBlocks{
+	position: relative;
+}
+.loginBlocks h4{
+	font-size: 18px;
+	font-weight: 500;
+	color: #678188;
+    margin-bottom: 30px;
+	display: block;
+	float: left;
+	width: 100%;
+}
+.loginBlocks ul>li{
+	margin-bottom: 24px;
+	display: inline-block;
+	width: 100%;
+}
+.loginBlocks ul>li>a{
+	display: inline-block;
+	width: 100%;
+	border-radius: 2px;
+	background-color: #fdfdfd;
+	border: solid 1px #eff5ef;
+}
+.loginBlocks ul>li i{
+	border-right: solid 1px #eff5ef;
+	color: #7f00fc;
+	padding: 16px;
+	margin-right: 16px;
+}
+.loginBlocks ul>li span{
+	font-size: 16px;
+	font-weight: 500;
+	color: #678188;
+}
+.forgetPassword{
+    font-size: 12px;
+    color: #665ff7;
+    text-align: center;
+    display: block;
+}
+.notAccount{
+	font-size: 16px;
+	text-align: left;
+	color: #425364;
+	margin-right: 15px;
+	display: inline-block;
+}
+.sliderContent{
+	font-size: 16px;
+	font-weight: 300;
+	color: #ffffff;
+    right: 10%;
+    left: 10%;
+}
+
+/* Login OTP Start */
+.RequestOtpCall{
+	display: block;;
+   font-size: 10px;
+    color: #678188;
+    text-align: center;
+    margin-top: 4px;
+}
+.otpMessage{
+    font-size: 10px;
+    text-align: center;
+    color: #678188;
+    margin: 0px 30px;
+}
+.otpMessage span{
+	color: #665ff7;
+}
+/* Login OTP End */
+/* Sign Up Start */
+.signUpTerms{
+	float: left;
+	width: 100%;
+}
+.signUpTerms span{
+	font-size: 12px;
+	font-weight: 300;
+	color: #425364;
+	margin-right: 15px;
+}
+.signUpTerms button{
+	display: inline-block;
+	width: auto;
+}
+/* Sign Up End */
+/* NewUserSuccess Start */
+.checkHead{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 24px;
+}
+.checkHead img{
+	width: 80px;
+	height: 80px;
+}
+.userSuccessHead h4{
+	font-size: 20px;
+	font-weight: 300;
+	color: #425364;
+	margin-bottom: 12px;
+}
+.userSuccessHead p{
+	font-size: 14px;
+	font-weight: 300;
+	color: #425364;
+	margin-bottom: 28px;
+}
+.userSuccessHead ul>li{
+	font-size: 14px;
+	font-weight: 300;
+	color: #425364;
+	display: inline-block;
+	width: 36%;
+	margin-bottom: 32px;
+}
+.userSuccessHead ul>li span{
+	font-weight: normal;
+	color: #665ff7;
+}
+/* NewUserSuccess End */

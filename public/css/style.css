@@ -1,0 +1,178 @@
+body {
+    overflow: hidden;
+}
+.slider {
+    width: 100%;
+    float: left;
+}
+.slider-text {
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.slider h1 {
+    font-size: 64px;
+    color: #fff;
+    margin: 75px 0 10px 0;
+}
+.slider p {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 30px;
+}
+.bar {
+    width: 100px;
+    height: 5px;
+    border-radius: 4.5px;
+    background-color: #fff;
+}
+.slider-text button {
+    width: 234px;
+    height: 36px;
+    border-radius: 23px;
+    border: solid 2px #fff;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background: transparent;
+    margin-top: 60px;
+}
+.btn-default:hover {
+    background: #fff;
+    border: solid 2px #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.bottom-p {
+    font-size: 14px;
+    /* font-weight: 500; */
+    
+    color: #ffffff;
+    margin-top: 114px;
+    font-family: verdana;
+    position: absolute;
+    bottom: 34px;
+    right: 62px;
+    ;
+}
+.carousel-indicators {
+    float: left;
+    position: fixed;
+    bottom: -70px;
+}
+.carousel-fade .carousel-inner .item {
+    transition-property: opacity;
+}
+.carousel-indicators li {
+    width: 7px;
+    height: 7px;
+    background: #fff;
+    margin: 1px 12px;
+}
+.carousel-inner>.item>img.lg-slider {
+    display: block;
+}
+.carousel-inner>.item>img.md-slider,
+.carousel-inner>.item>img.sm-slider,
+.carousel-inner>.item>img.xs-slider,
+.carousel-inner>.item>img.xxs-slider {
+    display: none;
+}
+.carousel-fade .carousel-inner .item {
+    transition-property: opacity;
+}
+.carousel-inner .item,
+.active.left,
+.active.right {
+    opacity: 0.5;
+}
+.carousel-inner .active,
+.next.left,
+.prev.right {
+    opacity: 1;
+}
+.carousel-inner .next,
+.prev,
+.active.left,
+.active.right {
+    left: 0;
+    transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+.home-logo {
+    background: transparent;
+    position: absolute;
+    z-index: 99999;
+    top: 5%;
+    left: 5%;
+}
+.home-logo-text {
+    left: 35%;
+    top: 10%;
+}
+@media only screen and (max-width: 1024px) {
+    .carousel-inner>.item>img.md-slider {
+        display: block;
+    }
+    .carousel-inner>.item>img.lg-slider,
+    .carousel-inner>.item>img.sm-slider,
+    .carousel-inner>.item>img.xs-slider,
+    .carousel-inner>.item>img.xxs-slider {
+        display: none;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .carousel-inner>.item>img.sm-slider {
+        display: block;
+    }
+    .carousel-inner>.item>img.lg-slider,
+    .carousel-inner>.item>img.md-slider,
+    .carousel-inner>.item>img.xs-slider,
+    .carousel-inner>.item>img.xxs-slider {
+        display: none;
+    }
+    .carousel-indicators {
+        bottom: 310px;
+    }
+    .slider h1 {
+        margin: 165px 0 10px 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .carousel-inner>.item>img.xs-slider {
+        display: block;
+    }
+    .carousel-inner>.item>img.lg-slider,
+    .carousel-inner>.item>img.md-slider,
+    .carousel-inner>.item>img.sm-slider,
+    .carousel-inner>.item>img.xxs-slider {
+        display: none;
+    }
+}
+@media only screen and (max-width: 489px) {
+    .carousel-inner>.item>img.xxs-slider {
+        display: block;
+    }
+    .carousel-inner>.item>img.lg-slider,
+    .carousel-inner>.item>img.md-slider,
+    .carousel-inner>.item>img.sm-slider,
+    .carousel-inner>.item>img.xs-slider {
+        display: none;
+    }
+}
+.slider-images {
+    position: absolute;
+    bottom: 0;
+}
+.slider-images img {
+    display: inline-block;
+    width: 65%;
+    float: left;
+}

@@ -1,0 +1,116 @@
+.dashboardHeader{
+	background: #665ff7;
+    padding: 11px 15px;
+}
+.logoRightBorder{
+	border-right: solid 1px #ede9e9;
+}
+/* Search Section Start*/
+.searchSec{
+	position: relative;
+	margin-bottom: 0px;
+}
+.searchSec input{
+	border-radius: 4px;
+	background-color: rgba(67, 80, 188,0.4);
+	height: 32px;
+	border: none;
+	padding-left: 48px;
+}
+.searchSec input::placeholder{
+	font-size: 12px;
+	line-height: 1.5;
+	text-align: left;
+	color: #fff;
+}
+.searchSec:before{
+	content: "\F002";
+    position: absolute;
+    color: #d0d9e1;
+    font-family: FontAwesome;
+    left: 16px;
+    top: 4px;
+    font-size: 16px;
+}
+/* Search Section End*/
+/* Right List Section Start*/
+.headerList{
+	float: right;
+	margin-bottom: 0px;
+}
+.headerList li{
+	margin-right: 24px;
+	display: inline-block;
+    position: relative;
+}
+.headerList li>a i{
+ 	color: rgba(0,0,0,0.4);
+    font-size: 24px;
+}
+.headerList li>a span{
+	font-size: 12px;
+	font-weight: 500;
+	text-align: left;
+	color: #ffffff;
+	Dear Team, 
+
+I would like to request for a WFH on 28-Oct-2017 i.e Saturday. I will resume my duties in office on 30-Oct-2017.
+
+I shall intimate you about the tasks that I will be doing on the day by 28-Oct-2017 positively.
+	margin-left: 12px;
+	top: -4px;
+    position: relative;
+}
+.headerList li>a i.downIcon{
+	margin-left: 12px;
+	color: #fff;
+}
+.headerList li.userHead i{
+    color: #62b7ed;
+    font-size: 24px;
+}
+.headerList li.userHead .userHeadDropdown{
+	background: transparent;
+	padding: 0px;
+	border: none;
+	box-shadow: none;
+	font-size: 12px;
+	color: #ffffff;
+    font-weight: 500;
+    margin-left: 12px;
+    top: -4px;
+    position: relative;
+    padding-right: 40px;
+}
+.headerList li.userHead .userHeadDropdown>span{
+    display: none;
+}
+.headerList li.userHead .userHeadDropdown:before{
+	content: "\f107";
+	color: #f2f3f3;
+	font-family: FontAwesome;
+	position: absolute;
+	right: 0px;
+	font-size: 24px;
+	top: -10px;
+}
+.headerList li.userHead .userHeadDropdown:hover, .headerList li.userHead .userHeadDropdown:focus{
+	background: transparent;
+	color: #fff;
+}
+.messageCount{
+	position: absolute;
+	top: 0px;
+	width: 12px;
+	height: 12px;
+	background-color: #f7fafc;
+	text-align: center;
+	border-radius: 100%;
+    right: -5px;
+}
+.messageCount p{
+	font-size: 8px;
+	text-align: center;
+	color: #015794;
+}
+/* Right List Section End*/

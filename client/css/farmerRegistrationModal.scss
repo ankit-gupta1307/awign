@@ -1,0 +1,31 @@
+.farmerModalBody{
+	padding: 15px;
+}
+.farmerModalHead{
+	float: left;
+	width: 100%;
+}
+.farmerModalTab ul{
+	text-align: center;
+	border-bottom: 1px solid #e2e9e2;
+    margin-bottom: 25px;
+}
+.farmerModalTab ul li{
+	float: none;
+	display: inline-block;
+	border-top: 2px solid #665ff7;
+}
+.farmerModalTab ul li>a{
+	font-size: 12px;
+	font-weight: 600;
+	color: #7ed321;
+	border: none;
+	border-bottom: 1px solid #e2e9e2;
+    padding: 10px 40px;
+}
+.farmerModalTab ul li>a:hover, .farmerModalTab ul li>a:focus{
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #e2e9e2;
+}

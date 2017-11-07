@@ -1,0 +1,110 @@
+.dashboardLeftSec{
+    padding: 15px 0px;
+}
+.dashboardLeftSec>li{
+	list-style-type: none;
+}
+.dashboardLeftSec>li>a{
+    display: inline-block;
+    padding: 15px 16px 15px 48px;
+    width: 100%;
+    border-left: 5px solid #fff;
+}
+.dashboardLeftSec>li>a:hover{
+	text-decoration: none;
+}
+.dashboardLeftSec>li>a.panelActive{
+	background-color: #f3f3f7;
+	text-decoration: none;
+	border-left: 5px solid #665ff7;
+	transition: 0.3s all ease;
+}
+.dashboardLeftSec>li>a:hover>span, .dashboardLeftSec>li>a.panelActive>span{
+	transition: 0.3s all ease;
+	color: #665ff7;
+	opacity: 1;
+	font-weight: 700;
+}
+.dashboardLeftSec>li>a>img{
+	width: 24px;
+}
+.dashboardLeftSec>li>a>span{
+	opacity: 0.6;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: left;
+	color: #594f4f;
+	margin-left: 10px;
+}
+.leftPanelDropdown{
+	opacity: 0.6;
+	color: #2b2c31;
+}
+.leftPanel{
+	background: #c5c5cc;
+	padding: 15px 0px; 
+}
+.leftPanel ol{
+	position: relative;
+}
+.leftPanel ol:before{
+    content: "";
+    background: #665ff7;
+    width: 2px;
+    height: 94%;
+    position: absolute;
+    top: -14px;
+    left: 60px;
+}
+.leftPanel ol>li{
+	list-style-type: none;
+	padding: 11px 11px 11px 105px;
+	position: relative;
+}
+.leftPanel ol>li:before{
+    content: "";
+    background: #665ff7;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    width: 24px;
+    height: 2px;
+}
+.leftPanel ol>li:after{
+    content: "\F1DB";
+    font-family: FontAwesome;
+    color: #665ff7;
+    position: absolute;
+    top: 11px;
+    left: 84px;
+    width: 6px;
+    height: 6px;
+}
+.leftPanel ol>li>a{
+	display: inline-block;
+}
+.leftPanel ol>li>a{
+	font-size: 16px;
+	font-weight: 500;
+	text-align: left;
+	color: #efefef;
+	border-bottom: 1px solid #c5c5cc;
+}
+.leftPanel ol>li>a:hover,.leftPanel ol>li>a.innerPanelActive{
+	text-decoration: none;
+	color: #ffffff;
+	transition: 0.3s all ease;
+	font-weight: 700;
+	border-bottom: 1px solid #fff;
+}
+.lastLogin{
+    font-size: 12px;
+    color: #454549;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 24px 0px;
+}

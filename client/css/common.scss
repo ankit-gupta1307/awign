@@ -1,0 +1,142 @@
+
+*{
+	padding: 0;
+	margin: 0 auto;
+	font-family: Roboto;
+}
+.displayTable{
+	display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+.commonHeading{
+	font-size: 24px;
+	font-weight: 500;
+	color: #425364;
+	margin-bottom: 7px;
+}
+.commonPara{
+	font-size: 16px;
+	text-align: left;
+	color: #425364;
+}
+.commonForm{
+	margin-bottom: 24px;
+}
+.commonForm label{
+	font-size: 12px;
+    color: #54698d;
+    font-weight: 400;
+}
+.commonForm label span{
+	color: red;
+}
+.commonForm input, .commonForm select{
+	height: 36px;
+	border-radius: 4px;
+	background-color: #ffffff;
+	border: solid 1px #a8b7c7;
+	font-size: 12px;
+	color: #6984ac;
+}
+.commonForm button{
+	border-radius: 4px;
+	background-color: #665ff7;
+	border: solid 1px #514cc5;
+	margin: 0 auto;
+	float: none;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	color: #ffffff;
+    min-width: 136px;
+    max-height: 36px;
+    padding: 7px 10px;
+}
+.defaultBtn{
+	border-radius: 4px;
+	background-color: #665ff7;
+	border: solid 1px #514cc5;
+	margin: 0 auto;
+	float: none;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	color: #ffffff;
+    min-width: 136px;
+    max-height: 36px;
+    padding: 7px 10px;
+    display: inline-block;
+}
+.commonForm button:hover, .commonForm button:focus, .defaultBtn:hover, .defaultBtn:focus{
+	background-color: #fff;
+	border: solid 1px #514cc5;
+	color: #665ff7;
+	transition: 0.3s all ease;
+	outline: none;
+}
+.commonForm .inputVerifyHead{
+	position: relative;
+}
+.commonForm .inputVerifyBtn{
+	position: absolute;
+	right: 9px;
+	top: 11px;
+	font-size: 12px;
+	color: #665ff7;
+	text-decoration: underline;
+}
+.commonButton{
+	position: relative;
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #ffffff;
+	border: solid 1px #514cc5;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	color: #665ff7;
+	padding: 7px 10px;
+	height: 36px;
+	min-width: 136px;
+}
+.commonButton:hover{
+	text-decoration: none;
+	transition: 0.3s all ease;
+	background-color: #514cc5;
+	border: solid 1px #514cc5;
+	color: #fff;
+}
+.passbookPhoto{
+	position: relative;
+}
+.passbookPhoto i{
+    position: absolute;
+    top: 0px;
+    color: #8e8d8e;
+    font-size: 16px;
+    border-left: 2px solid #979797;
+    padding-left: 10px;
+    height: 100%;
+    padding: 10px;
+    right: 0px;
+}
+/* dashboard page common css start*/
+.panelMain{
+	display: table;
+	width: 100%;
+}
+.leftPanelHead{
+	background-color: #ffffff;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    display: table-cell;
+    float: none;
+}
+.RightPanelHead{
+	background-color: #f3f3f7;
+	padding: 45px 27px 0px 27px;
+    display: table-cell;
+    float: none;
+}
+/* dashboard page common css end*/

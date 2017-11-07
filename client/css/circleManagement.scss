@@ -1,0 +1,219 @@
+/*.searchHead{
+	margin-bottom: 42px;
+}*/
+.commonTable{
+	width: 99.8%;
+}
+.commonTable>thead{
+	padding-bottom: 10px;
+	position: relative;
+	background: #e2e2e2;
+	border-radius: 2px;
+}
+.commonTable>thead>tr>th{
+	font-size: 14px;
+	text-align: left;
+	color: #7a7a7a;
+	font-weight: 500;
+	border-bottom: none;
+}
+.commonTable>tbody{
+	border-radius: 2px;
+	background-color: #ffffff;
+}
+.commonTable>tbody>tr{
+	border: solid 1px #d0cece;
+}
+
+.commonTable>tbody>tr:hover{
+	border: solid 1px #8bc34a;
+	box-shadow: 0 0 2px 0 #8bc34a;
+	transition: 0.3s all ease;
+}
+.commonTable>tbody>tr:hover td{ 
+	border-top: solid 1px #8bc34a;
+	transition: 0.3s all ease;
+}
+.commonTable>tbody>tr>td{
+	font-size: 14px;
+	text-align: left;
+	color: #7a7a7a;
+	padding: 10px;
+	border: none;
+}
+.commonTable>tbody>tr>td .tickButton{
+	width: 24px;
+	height: 24px;
+	border-radius: 2px;
+	border: solid 1px #dddddd;
+	padding: 5px;
+	color: #7ed321;
+	text-align: center;
+}
+.commonTable>tbody>tr>td .crossButton{
+	width: 24px;
+	height: 24px;
+	border-radius: 2px;
+	border: solid 1px #dddddd;
+	padding: 5px;
+	color: #c14353;
+	text-align: center;
+	margin-left: 14px;
+}
+.commonTable>tbody>tr>td .tableDropdown{
+	box-shadow: none;
+	border: none;
+	background: transparent;
+	margin-left: 28px !important; 
+	padding: 0px;
+}
+.commonTable>tbody>tr>td.tableButtonSec ul{
+	left: auto;
+	right: 0;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 4px;
+	background-color: #fffeff;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+	border: solid 1px #f1f1f1;
+}
+.commonTable>tbody>tr>td .tableDropdown:focus{
+	background: transparent;
+}
+.commonTable>tbody>tr>td .tableDropdown span{
+	display: none;
+}
+.tableButtonSec .tableMenuItem{
+	border-bottom: solid 0.5px #d9d9d9;
+}
+.tableButtonSec .tableMenuItem:nth-last-child(1){
+	border-bottom: none;
+}
+.tableButtonSec .tableMenuItem a{
+	padding: 12px 7px;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.5;
+	color: #a5a5a7;
+}
+.tableButtonSec .tableMenuItem a>i{
+	margin-right: 8px;
+	color: #8eabc2;	
+}
+/* Heading section Start*/
+.headingSec{
+	background-color: #f7fafc;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+	padding: 12px 24px;
+}
+.headingSec h4{
+	font-size: 16px;
+	font-weight: 500;
+	color: #6b777a;
+	margin-top: 0px;
+}
+.headingSec h2{
+	font-size: 24px;
+	font-weight: 500;
+	color: #6b777a;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+/* Heading section End*/
+/* Form section Start*/
+.formSec{
+	background-color: #ffffff;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+	padding: 18px 34px;
+}
+.formMarginRemove{
+	margin-bottom: 0px;
+}
+/* Form section End*/
+/* Table Menu section Start*/
+.tableMenu{
+	border-bottom: solid 0.5px #c4c4c6;
+	padding: 23px 23px 0px 23px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+.tableLeftMenu ul{
+	margin-bottom: 0px;
+}
+.tableLeftMenu ul>li{
+	margin-right: 39px;
+	display: inline-block;
+}
+.tableLeftMenu ul>li a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #afabac;
+	border-bottom: solid 2px #f3f3f7;
+}
+.tableLeftMenu ul>li.active a{
+	color: #4c4c4c;
+	border-bottom: solid 2px #665ff7;
+}
+.tableLeftMenu ul>li a:hover{
+	text-decoration: none;
+}
+.tableRightMenu{
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+}
+.tableRightMenu ul{
+	margin-bottom: 0px;
+}
+.tableRightMenu ul>li{
+	margin-left: 45px;
+	display: inline-block;
+}
+.tableRightMenu ul>li a{
+	font-size: 12px;
+	line-height: 1.5;
+	color: #666669;
+}
+.tableRightMenu ul>li:nth-child(1) a{
+	color: #6ebb1a;
+}
+.tableRightMenu ul>li:nth-child(2) a{
+	color: #c14353;
+}
+.tableRightMenu ul>li.transferBtn a{
+	background: transparent;
+	border: solid 1px #a3a3ab;
+}
+.tableRightMenu ul>li.transferBtn a:hover{
+	text-decoration: none;
+    background-color: #514cc5;
+    border: solid 1px #514cc5;
+}
+.tableRightMenu ul>li a i{
+	color: #8eabc2;
+	margin-right: 7px;
+}
+.tableRightMenu ul>li a:hover{
+	text-decoration: none;
+}
+/* Table Menu section End*/
+
+/* Supplier Mangement Page*/
+.formSelectHeight{
+    width: 200px;
+}
+.marginLeft{
+	margin-left: 50px;
+}
+/* Supplier Mangement Page*/
+/* Farmer Regsitration Page*/
+.tableInnerDetail{
+	opacity: 0.65;
+	font-size: 14px;
+	color: #665ff7;
+	text-decoration: underline;
+}
+.tableInnerDetail:hover{
+	opacity: 1;
+}
+/* Farmer Regsitration Page*/

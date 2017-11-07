@@ -1,0 +1,22 @@
+{
+  "en": {
+    "landing": {
+      "leftPanel": {
+        "side1": "GOVERNMENT OF INDIA",
+        "side2": "MINISTRY OF AGRICULTURE AND FARMER WELFARE",
+        "heading": "CROP INSURANCE",
+        "detail": "The portal for real-time and seamless flow of information across all the stakeholders i.e. Banks, Insurance Companies, Common Service Centres (CSCs), Government of India, State Governments and especially farmers. A single window platform that digitises the entire crop insurance process right from policy formulation to disbursement of claims in farmer’s account."
+      }
+    }
+  },
+  "hindi": {
+    "landing": {
+      "leftPanel": {
+        "side1": "GOVERNMENT OF HINDI",
+        "side2": "MINISTRY OF AGRICULTURE AND FARMER WELFARE",
+        "heading": "CROP INSURANCE",
+        "detail": "The portal for real-time and seamless flow of information across all the stakeholders i.e. Banks, Insurance Companies, Common Service Centres (CSCs), Government of India, State Governments and especially farmers. A single window platform that digitises the entire crop insurance process right from policy formulation to disbursement of claims in farmer’s account."
+      }
+    }
+  }
+}

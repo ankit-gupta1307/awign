@@ -1,0 +1,33 @@
+.RightPanelList{
+	margin-bottom: 47px;
+}
+.RightPanelList li{
+	display: inline-block;
+	font-size: 14px;
+	text-align: left;
+	color: #2d2828;
+	padding-right: 30px;
+	margin-right: 30px;
+	border-right: 1px solid #979797;
+	 opacity: 0.6;
+}
+.RightPanelList li:last-child{
+	border-right: none;
+}
+.RightPanelList li>span{
+	display: block;
+	font-size: 20px;
+	text-align: left;
+	color: #2d2828;
+	opacity: 0.88;
+	font-weight: 600;
+}
+.StatsHead h4{
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.14;
+	text-align: left;
+	color: #000000;
+	opacity: 0.5;
+	margin-bottom: 15px;
+}

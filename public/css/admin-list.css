@@ -1,0 +1,77 @@
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+body{
+  font-family: "Open Sans",sans-serif;
+  background-color: #828F95;
+  padding: 20px;
+}
+.auth-wrapper {
+    min-height:100%;
+    position:relative;
+    background: #EEF4F8;
+    margin-left: auto;
+    margin-right: auto;
+}
+.auth-header {
+    padding:0;
+    margin: 0;
+    background-color:#4F5F70; 
+    min-height: 70px;
+  }
+.auth-content {
+    padding-bottom:85px; /* Height of the footer element */
+    min-height: 500px;
+    padding-top: 0px;
+}
+.auth-footer {
+    width:100%;
+    position:absolute;
+    bottom:0px;
+    left:0;
+    text-align: center;
+    background-color:#4F5F70;
+}
+
+.auth-header a{
+     float: left;
+     padding-top: 5px;
+    }
+.auth-header h1{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin:25px 0 0 0;
+    padding:0;
+    float: right;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.page-title{
+  font-size: 18px;
+  font-weight: 600;
+  color: #4a4a4a;
+  background: #fff;
+  padding: 15px 0;
+  margin: 0 -15px 15px -15px;
+}
+table{
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+table th {
+    background: #dbeffd none repeat scroll 0 0;
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+table td{
+  text-transform: uppercase;
+}
