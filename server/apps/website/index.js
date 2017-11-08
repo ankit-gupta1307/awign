@@ -21,6 +21,3 @@ app.use(function (req, res, next) {
   next();
 });
 
-app.use('/', require('./routes/pages'));
-app.use('/login', require('./routes/auth'));
-app.use('/project', require('./routes/common'));
